@@ -1,0 +1,341 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "email": "user@example.com",
+        "hashed_password": "$2b$12$EixZaYVK1fsbw1ZfbX3OXePaWxn96p36WQoeG6Lruj3vjPGga31lW",
+        "full_name": "John Doe",
+        "is_active": true,
+        "role": "user"
+      }
+    ],
+    
+    "categories": [
+      {
+        "id": 1,
+        "name": "Entertainment",
+        "description": "Streaming services, games, and other entertainment subscriptions",
+        "color": "#FF5733",
+        "user_id": 1
+      },
+      {
+        "id": 2,
+        "name": "Software",
+        "description": "Software licenses and cloud services",
+        "color": "#33A1FF",
+        "user_id": 1
+      },
+      {
+        "id": 3,
+        "name": "Internet & Phone",
+        "description": "Internet service providers and mobile plans",
+        "color": "#33FF57",
+        "user_id": 1
+      },
+      {
+        "id": 4,
+        "name": "Hosting",
+        "description": "Web hosting, domains, and server rentals",
+        "color": "#A633FF",
+        "user_id": 1
+      },
+      {
+        "id": 5,
+        "name": "Health & Fitness",
+        "description": "Gym memberships and health apps",
+        "color": "#FFD700",
+        "user_id": 1
+      }
+    ],
+    
+    "subscriptions": [
+      {
+        "id": 1,
+        "name": "Netflix",
+        "description": "Premium streaming plan",
+        "amount": 149000,
+        "currency": "IDR",
+        "billing_cycle": "monthly",
+        "billing_day": 15,
+        "next_billing_date": "2025-05-15",
+        "start_date": "2023-01-15",
+        "auto_renew": true,
+        "reminder_days": 3,
+        "website_url": "https://netflix.com",
+        "is_active": true,
+        "user_id": 1,
+        "category_id": 1
+      },
+      {
+        "id": 2,
+        "name": "Spotify",
+        "description": "Family plan",
+        "amount": 79000,
+        "currency": "IDR",
+        "billing_cycle": "monthly",
+        "billing_day": 10,
+        "next_billing_date": "2025-05-10",
+        "start_date": "2023-02-10",
+        "auto_renew": true,
+        "reminder_days": 3,
+        "website_url": "https://spotify.com",
+        "is_active": true,
+        "user_id": 1,
+        "category_id": 1
+      },
+      {
+        "id": 3,
+        "name": "Adobe Creative Cloud",
+        "description": "All apps plan",
+        "amount": 869000,
+        "currency": "IDR",
+        "billing_cycle": "monthly",
+        "billing_day": 5,
+        "next_billing_date": "2025-05-05",
+        "start_date": "2023-03-05",
+        "auto_renew": true,
+        "reminder_days": 5,
+        "website_url": "https://adobe.com",
+        "is_active": true,
+        "user_id": 1,
+        "category_id": 2
+      },
+      {
+        "id": 4,
+        "name": "Domain example.com",
+        "description": "Annual domain registration",
+        "amount": 300000,
+        "currency": "IDR",
+        "billing_cycle": "annual",
+        "billing_day": 20,
+        "next_billing_date": "2026-01-20",
+        "start_date": "2023-01-20",
+        "auto_renew": true,
+        "reminder_days": 14,
+        "website_url": "https://namecheap.com",
+        "is_active": true,
+        "user_id": 1,
+        "category_id": 4
+      },
+      {
+        "id": 5,
+        "name": "VPS Hosting",
+        "description": "Cloud VPS hosting plan",
+        "amount": 150000,
+        "currency": "IDR",
+        "billing_cycle": "monthly",
+        "billing_day": 1,
+        "next_billing_date": "2025-05-01",
+        "start_date": "2023-04-01",
+        "auto_renew": true,
+        "reminder_days": 5,
+        "website_url": "https://digitalocean.com",
+        "is_active": true,
+        "user_id": 1,
+        "category_id": 4
+      },
+      {
+        "id": 6,
+        "name": "Mobile Plan",
+        "description": "Unlimited data plan",
+        "amount": 200000,
+        "currency": "IDR",
+        "billing_cycle": "monthly",
+        "billing_day": 25,
+        "next_billing_date": "2025-04-25",
+        "start_date": "2023-01-25",
+        "auto_renew": true,
+        "reminder_days": 3,
+        "website_url": "https://telkomsel.com",
+        "is_active": true,
+        "user_id": 1,
+        "category_id": 3
+      },
+      {
+        "id": 7,
+        "name": "Home Internet",
+        "description": "Fiber 100Mbps",
+        "amount": 350000,
+        "currency": "IDR",
+        "billing_cycle": "monthly",
+        "billing_day": 5,
+        "next_billing_date": "2025-05-05",
+        "start_date": "2023-01-05",
+        "auto_renew": true,
+        "reminder_days": 5,
+        "website_url": "https://indihome.co.id",
+        "is_active": true,
+        "user_id": 1,
+        "category_id": 3
+      },
+      {
+        "id": 8,
+        "name": "GitHub Pro",
+        "description": "Personal pro plan",
+        "amount": 70000,
+        "currency": "IDR",
+        "billing_cycle": "monthly",
+        "billing_day": 15,
+        "next_billing_date": "2025-05-15",
+        "start_date": "2023-05-15",
+        "auto_renew": true,
+        "reminder_days": 3,
+        "website_url": "https://github.com",
+        "is_active": true,
+        "user_id": 1,
+        "category_id": 2
+      },
+      {
+        "id": 9,
+        "name": "Gym Membership",
+        "description": "Annual gym membership",
+        "amount": 3000000,
+        "currency": "IDR",
+        "billing_cycle": "annual",
+        "billing_day": 10,
+        "next_billing_date": "2026-01-10",
+        "start_date": "2023-01-10",
+        "auto_renew": true,
+        "reminder_days": 14,
+        "website_url": "https://fitnessfirst.co.id",
+        "is_active": true,
+        "user_id": 1,
+        "category_id": 5
+      },
+      {
+        "id": 10,
+        "name": "Disney+",
+        "description": "Standard plan",
+        "amount": 39000,
+        "currency": "IDR",
+        "billing_cycle": "monthly",
+        "billing_day": 20,
+        "next_billing_date": "2025-05-20",
+        "start_date": "2023-06-20",
+        "auto_renew": true,
+        "reminder_days": 3,
+        "website_url": "https://disneyplus.com",
+        "is_active": true,
+        "user_id": 1,
+        "category_id": 1
+      }
+    ],
+    
+    "payment_history": [
+      {
+        "id": 1,
+        "subscription_id": 1,
+        "payment_date": "2025-04-15",
+        "amount": 149000,
+        "status": "paid",
+        "payment_method": "Credit Card",
+        "notes": "Auto payment"
+      },
+      {
+        "id": 2,
+        "subscription_id": 2,
+        "payment_date": "2025-04-10",
+        "amount": 79000,
+        "status": "paid",
+        "payment_method": "Credit Card",
+        "notes": "Auto payment"
+      },
+      {
+        "id": 3,
+        "subscription_id": 3,
+        "payment_date": "2025-04-05",
+        "amount": 869000,
+        "status": "paid",
+        "payment_method": "PayPal",
+        "notes": "Manual payment"
+      },
+      {
+        "id": 4,
+        "subscription_id": 5,
+        "payment_date": "2025-04-01",
+        "amount": 150000,
+        "status": "paid",
+        "payment_method": "Credit Card",
+        "notes": "Auto payment"
+      },
+      {
+        "id": 5,
+        "subscription_id": 6,
+        "payment_date": "2025-03-25",
+        "amount": 200000,
+        "status": "paid",
+        "payment_method": "Direct Debit",
+        "notes": "Auto payment"
+      },
+      {
+        "id": 6,
+        "subscription_id": 7,
+        "payment_date": "2025-04-05",
+        "amount": 350000,
+        "status": "paid",
+        "payment_method": "Bank Transfer",
+        "notes": "Manual payment"
+      },
+      {
+        "id": 7,
+        "subscription_id": 8,
+        "payment_date": "2025-04-15",
+        "amount": 70000,
+        "status": "paid",
+        "payment_method": "Credit Card",
+        "notes": "Auto payment"
+      },
+      {
+        "id": 8,
+        "subscription_id": 10,
+        "payment_date": "2025-04-20",
+        "amount": 39000,
+        "status": "paid",
+        "payment_method": "Credit Card",
+        "notes": "Auto payment"
+      }
+    ],
+    
+    "notifications": [
+      {
+        "id": 1,
+        "user_id": 1,
+        "subscription_id": 1,
+        "type": "email",
+        "subject": "Netflix subscription reminder",
+        "message": "Your Netflix subscription will be renewed in 3 days on 2025-05-15 for IDR 149,000.",
+        "status": "pending",
+        "scheduled_at": "2025-05-12T09:00:00Z"
+      },
+      {
+        "id": 2,
+        "user_id": 1,
+        "subscription_id": 2,
+        "type": "email",
+        "subject": "Spotify subscription reminder",
+        "message": "Your Spotify subscription will be renewed in 3 days on 2025-05-10 for IDR 79,000.",
+        "status": "pending",
+        "scheduled_at": "2025-05-07T09:00:00Z"
+      },
+      {
+        "id": 3,
+        "user_id": 1,
+        "subscription_id": 3,
+        "type": "email",
+        "subject": "Adobe Creative Cloud subscription reminder",
+        "message": "Your Adobe Creative Cloud subscription will be renewed in 5 days on 2025-05-05 for IDR 869,000.",
+        "status": "pending",
+        "scheduled_at": "2025-04-30T09:00:00Z"
+      },
+      {
+        "id": 4,
+        "user_id": 1,
+        "subscription_id": 5,
+        "type": "email",
+        "subject": "VPS Hosting subscription reminder",
+        "message": "Your VPS Hosting subscription will be renewed in 5 days on 2025-05-01 for IDR 150,000.",
+        "status": "pending",
+        "scheduled_at": "2025-04-26T09:00:00Z"
+      }
+    ]
+  }
